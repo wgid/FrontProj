@@ -1,0 +1,158 @@
+body {
+    background-color: #ffffff;
+}
+.main_form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top:60px;
+    width: 398px;
+    height: auto;
+    background-color: #e3e5e8;
+}
+.main_form h2{
+    letter-spacing: 1px;  
+    color: #a8a7a8;  
+}
+
+.form-group{
+    text-align: center;
+    margin-bottom: 15px;
+}
+input{
+    padding: 0 10px;
+    width: 318px;
+    font-size: 20px;
+    line-height: center;
+    font-weight: 300;
+    height: 40px;
+    background-color: rgb(255, 242, 215);  
+    outline:none;
+    border: 1px solid gray;
+}
+.btn-default{
+    color: #fff;
+    background-color: #f10070;
+    border-color: transparent;
+    border-radius: 7px;
+    width: 300px;
+}
+.btn-default:hover{
+    background-color: #c5055e;
+    cursor: pointer;
+}
+
+.text_rules a{
+    color: rgb(57, 136, 136);    
+    text-decoration: none;
+}
+.text_rules a:hover{
+    text-decoration: underline;
+}
+p {
+   color: #a8a7a8;
+}
+.have_account{
+    font-size: 17px;    
+    color: black;
+    letter-spacing: 1px;
+}
+.have_account a{
+    color: blue;
+}
+.error_form{
+    color: #ff3b30;
+    font-weight: 500;
+    font-size: 18px;
+}
+/************************
+*******ACCOUNT.PHP*******
+*************************/
+.main-content{
+    width: 900px;
+    height: 480px;
+    border: 1px solid #f10070;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .exit{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(196, 240, 196);
+        font-size: 20px;
+        padding: 10px 0; 
+    }
+    .exit span{
+        margin-left: 400px;
+    }
+    .exit a{
+        margin-right: 30px;
+        color: orangered;
+    
+    }
+    .exit a:hover{
+        color: #f10070; 
+    }
+    .account-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 18px;    
+        width: 100%;
+        height: 300px;
+    }
+        .avatar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+            padding-top: 5px;
+            width: 170px;
+        }
+            .avatar img{
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+            .uploadButton {
+                display: block;
+                width: 150px;
+                background: #3df;
+                padding: 5px;
+                color: #FFF;
+                font-size: 16px;
+                font-weight: bold;
+                font-family: Tahoma;
+                text-align: center;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .uploadButton:hover {
+                background: #3ce;
+            }
+
+            a.delete_avatar {
+                color: #ff3b30;
+                
+            }
+        .info{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid#c5055e;          
+        }
+        .info td{
+            border-bottom: 1px solid #C5D2DB;
+            padding: 3px;
+            height: auto;
+            margin: 0;
+            width: 150px;    
+        }
+        .confirm{
+            width: 20px;
+        }
+   
+        

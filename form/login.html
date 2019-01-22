@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style12.css" />
+    <script src="main.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <div class="main_form">
+        <h2>Авторизация</h2>
+        <form action="form.php" method="GET">
+            <div class="form-group ">
+                <input id="first_name_or_email" type="text" class="form-control " placeholder="Логин или Email" name="first_name_or_email"
+                    value="">
+            </div>
+            <div class="form-group ">
+                <input id="password" class="form-control " placeholder="Пароль" type="password" name="user_pwd" value=""
+                    id="password">
+            </div>
+
+            <div>
+
+             <div class="form-group ">
+                <input  class="form-control " type="submit" name="login" value="Вход"
+                    id="password">
+            </div>
+            <span class="forget_password">
+                <a href="#">Забыли пароль?</a>
+            </span>
+
+        </form>
+    </div>
+</body>
+
+</html>
